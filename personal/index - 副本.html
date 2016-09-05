@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body id="body">
+<div class="container ">
+
+    <div class="row " >
+        <div class="col-sm-12" id="nav"  >
+            <nav class="navbar  navbar-inverse " style="margin-bottom: 0;">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand icon" href="#">
+                            刘磊
+                            <h6 id="sup">Personal page</h6>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#"> Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">Personal blogs</a></li>
+                            <li><a href="#" >Personal logs</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+        </div>
+    </div>
+    <div class="bgc" style="overflow:hidden;">
+    <div class="col-md-4 left  pd10  "  data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+        <div>
+            <img src="images/me.jpg" alt="我的头像" class="img-circle personal_header">
+
+
+            <div class="title" >
+                <h1 class="fgreen">My</h1><h1>Page</h1>
+                <h6>EVERYTHING ABOUT ME</h6>
+
+                <h3>Page<i class="fgreen">.01</i></h3>
+                <img src="images/page1.jpg" alt="page01的总概" class="pageImage">
+                <a href="#home" class="active"  aria-controls="home" role="tab" data-toggle="tab">
+                    <h4><i class="fgreen">H</i>ome</h4>
+                </a>
+                <a href="#skills"  aria-controls="home" role="tab" data-toggle="tab">
+                    <h4><i class="fgreen">S</i>kills</h4>
+                </a>
+                <a href="#experience"  aria-controls="home" role="tab" data-toggle="tab">
+                    <h4><i class="fgreen">E</i>xperience</h4>
+                </a>
+                <a href="#show"  aria-controls="home" role="tab" data-toggle="tab">
+                    <h4><i class="fgreen">S</i>how</h4>
+                </a>
+                <a href="#other"  aria-controls="home" role="tab" data-toggle="tab">
+                    <h4><i class="fgreen">O</i>ther</h4>
+                </a>
+            </div>
+
+
+            <div class="labels">
+                    <div class="alert" role="alert" style="background-color:#3c3c3c;">
+                        <span>个人标签：</span>
+                        <div>
+                            <span class="label label-default " data-toggle="tooltip"
+                                  data-placement="top" title="爱玩是每个人天性--。--">贪玩</span>
+                            <span class="label label-primary"  data-toggle="tooltip"
+                                  data-placement="top" title="LOL是娱乐之一！.！">LOL</span>
+                            <span class="label label-success" data-toggle="tooltip"
+                                  data-placement="top" title="游戏是生活不可或缺的一部分~.~">游戏</span>
+                            <span class="label label-info" data-toggle="tooltip"
+                                  data-placement="top" title="双重性格你信么？.？">双鱼座</span>
+                            <span class="label label-warning" data-toggle="tooltip"
+                                  data-placement="top" title="探索好奇是人类善于创造的特性之一@.@">喜欢接触新鲜的东西</span>
+                            <span class="label label-danger" data-toggle="tooltip"
+                                  data-placement="top" title="难道有时候就不能偷懒么'.'">慵懒</span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    <div class="col-md-8 right  pd10 ">
+        <div class="tab-content">
+            <!--home-->
+            <div role="tabpanel" class="tab-pane active" id="home">
+                    <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                        <img data-src="holder.js/100%x200"
+                             alt="100%x200"
+                             src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                        <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                            <h3>Welcome to my site</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <h5>more aboute my page</h5>
+                        </div>
+                    </div>
+                <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                    <h3 >Latest Works</h3>
+                    <div class="caption" style="padding: 10px; float: left; width: 100%; ">
+                        <img data-src="holder.js/100%x200"
+                             alt="100%x200"
+                             src="" data-holder-rendered="true" style="height: 200px; width: 30%; display: block; float: left;">
+                        <img data-src="holder.js/100%x200"
+                             alt="100%x200"
+                             src="" data-holder-rendered="true"
+                             style="height: 200px; width: 30%; margin: 0 5%; display: block; float: left;">
+                        <img data-src="holder.js/100%x200"
+                             alt="100%x200"
+                             src="" data-holder-rendered="true" style="height: 200px; width: 30%; display: block; float: left;">
+                    </div>
+                </div>
+
+                <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                    <h3>show about me</h3>
+                    <div style="width:100%;overflow: hidden; margin-top:8px; ">
+                        <img data-src="holder.js/100%x200"
+                             alt="100%x200"
+                             src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                        <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                            <h5>show about me</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <h5>more aboute my page</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                    <h3>show about me</h3>
+                    <div style="width:100%;overflow: hidden; margin-top:8px; ">
+                        <img data-src="holder.js/100%x200"
+                             alt="100%x200"
+                             src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                        <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                            <h5>show about me</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <h5>more aboute my page</h5>
+                        </div>
+                    </div>
+                </div> <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                <h3>show about me</h3>
+                <div style="width:100%;overflow: hidden; margin-top:8px; ">
+                    <img data-src="holder.js/100%x200"
+                         alt="100%x200"
+                         src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                    <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                        <h5>show about me</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <h5>more aboute my page</h5>
+                    </div>
+                </div>
+            </div> <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                <h3>show about me</h3>
+                <div style="width:100%;overflow: hidden; margin-top:8px; ">
+                    <img data-src="holder.js/100%x200"
+                         alt="100%x200"
+                         src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                    <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                        <h5>show about me</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <h5>more aboute my page</h5>
+                    </div>
+                </div>
+            </div> <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                <h3>show about me</h3>
+                <div style="width:100%;overflow: hidden; margin-top:8px; ">
+                    <img data-src="holder.js/100%x200"
+                         alt="100%x200"
+                         src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                    <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                        <h5>show about me</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <h5>more aboute my page</h5>
+                    </div>
+                </div>
+            </div> <div class="thumbnail" style="overflow: hidden; border-bottom: #eaeaea 1px dashed;">
+                <h3>show about me</h3>
+                <div style="width:100%;overflow: hidden; margin-top:8px; ">
+                    <img data-src="holder.js/100%x200"
+                         alt="100%x200"
+                         src="" data-holder-rendered="true" style="height: 200px; width: 50%; display: block; float: left;">
+                    <div class="caption" style="padding: 10px; float: left; width: 50%; ">
+                        <h5>show about me</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <h5>more aboute my page</h5>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--end home-->
+            <!--skills-->
+            <div role="tabpanel" class="tab-pane" id="skills">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item">
+                            <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide [900x500]" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNzc3OiM1NTUvdGV4dDpGaXJzdCBzbGlkZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1NmUzMTY0NWYyIHRleHQgeyBmaWxsOiM1NTU7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NDVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTU2ZTMxNjQ1ZjIiPjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjNzc3Ii8+PGc+PHRleHQgeD0iMzA4LjI5Njg3NSIgeT0iMjcwLjEiPkZpcnN0IHNsaWRlPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+                        </div>
+                        <div class="item">
+                            <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide [900x500]" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNjY2OiM0NDQvdGV4dDpTZWNvbmQgc2xpZGUKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTZlMzE2NDJkMiB0ZXh0IHsgZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjQ1cHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1NmUzMTY0MmQyIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiIvPjxnPjx0ZXh0IHg9IjI2NC45NTMxMjUiIHk9IjI3MC4xIj5TZWNvbmQgc2xpZGU8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+                        </div>
+                        <div class="item active">
+                            <img data-src="holder.js/900x500/auto/#555:#333/text:Third slide" alt="Third slide [900x500]" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNTU1OiMzMzMvdGV4dDpUaGlyZCBzbGlkZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1NmUzMTYyMzgzIHRleHQgeyBmaWxsOiMzMzM7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NDVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTU2ZTMxNjIzODMiPjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjNTU1Ii8+PGc+PHRleHQgeD0iMjk4LjMyMDMxMjUiIHk9IjI3MC4xIj5UaGlyZCBzbGlkZTwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="carousel-indicators">
+
+
+                    <div data-target="#carousel-example-generic" data-slide-to="0" class="">
+                        <div>
+                            <div class="content-img">
+                                asdasd
+                            </div>
+                            <div class="carousel-section-title ">
+                                <div class="triangle-right"></div>
+                            </div>
+                            <div class="carousel-section-year">
+
+                            </div>
+                            <div class="content content-right">
+                                asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+                                asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+                                asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div data-target="#carousel-example-generic" data-slide-to="1" class="">
+
+                        <div class="carousel-section-title carousel-section-title-left">
+                            <div class="triangle-left"></div>
+                        </div>
+                        <div class="carousel-section-year">
+
+                        </div>
+                        <div class="content content-left">
+                            asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+                            asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+                            asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+                        </div>
+                        <div class="content-img">
+
+                        </div>
+                    </div>
+
+                    <div data-target="#carousel-example-generic" data-slide-to="2" class="">
+
+                        <div class="carousel-section-title ">
+
+                        </div>
+                        <div class="carousel-section-year">
+
+                        </div>
+
+                    </div>
+
+                    <div data-target="#carousel-example-generic" data-slide-to="0" class="">
+
+                        <div class="carousel-section-title carousel-section-title-left">
+
+                        </div>
+                        <div class="carousel-section-year">
+
+                        </div>
+
+                    </div>
+
+                    <div data-target="#carousel-example-generic" data-slide-to="0" class="">
+
+                        <div class="carousel-section-title ">
+
+                        </div>
+                        <div class="carousel-section-year">
+
+                        </div>
+
+                    </div>
+
+                    <div data-target="#carousel-example-generic" data-slide-to="0" class="">
+
+                        <div class="carousel-section-title carousel-section-title-left">
+
+                        </div>
+                        <div class="carousel-section-year">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--end skill-->
+            <!--experience-->
+            <div role="tabpanel" class="tab-pane" id="experience">1...</div>
+            <!--end experience-->
+            <!--show-->
+            <div role="tabpanel" class="tab-pane" id="show">.2..</div>
+            <!--end show-->
+            <!--other-->
+            <div role="tabpanel" class="tab-pane" id="other">3...</div>
+            <!--end other-->
+        </div>
+
+
+
+
+    </div>
+    </div>
+</div>
+
+<footer id="footer" class="footer" style="height: 200px">11111</footer>
+
+</body>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</html>
